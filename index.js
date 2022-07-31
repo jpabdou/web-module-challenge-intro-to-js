@@ -19,7 +19,8 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = 18;
+console.log(votingAge >=18);
 
 
 /*
@@ -34,7 +35,11 @@ Do the following:
    HINT: no function required
 */
 
-
+let firstThing =2;
+let secondThing = 5;
+firstThing < secondThing;
+firstThing = 10;
+console.log(firstThing);
 
 
 
@@ -49,6 +54,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+let y2k = "1999";
+let numbery2k = Number(y2k);
+console.log(numbery2k);
+
 
 
 
@@ -61,8 +70,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
+function multiply(a,b){
   /*add your code here*/
+  return a *b;
 }
 
 
@@ -77,8 +87,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  let dogAge = age*7
+  return dogAge;
 }
 
 
@@ -129,8 +140,11 @@ NOTE 2: This is a great time to check the tests to see what it expects, versus w
         So, on this one test, the weight would be 4 pounds, and the age would be 1 years old. It's expecting your function to return a decimal number of 0.2
 */  
 
-function hungryDog(/*add your code here*/){
+function hungryDog(weight, age){
   /*add your code here*/
+  if (age < 1) {
+    
+  }
 }
 
 
